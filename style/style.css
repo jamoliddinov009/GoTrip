@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+
+/* header */
+
+.nav{
+    background: #3E8989;
+    height: 50px;
+}
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav_list{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;   
+}
+
+.logo{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Inter", serif;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.nav_link{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Inter", serif;
+}
+
+.nav_item:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.form{
+    padding: 10px 0;
+}
+
+.input{
+    background: #fff;
+    border: 1px solid #000;
+    width: 216px;
+    height: 30px;
+    margin-top: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 0 -5px;
+}
+
+.input::placeholder{
+    color: #000;
+    padding: 0 15px;
+}
+
+.button_search{
+    border: 1px solid #000;
+    background-color: #295E5E;
+    width: 60px;
+    height: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+/* header tugadi*/
+
+
+
+/* header content*/
+
+.for_bg{
+    background: url(../img/becground.png) no-repeat center/cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.title{
+    color: #fff;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 94.8px;
+    font-family: "Inter", serif;
+}
+
+.title_2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 47.4px;
+    color: #fff;
+    font-family: "Righteous", serif;
+    margin-bottom: 30px;
+}
+
+.btn{
+    background-color: #B4436C;
+    padding: 10px 80px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Inter", serif;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #B4436C;
+}
+
+/* header content tugadi */
+
+
+
+/*section*/
+
+.sesction_title{
+    text-align: center;
+    padding: 80px 0 40px;
+    color: #3E8989;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.section_container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 50px;
+}
+
+.section_list{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.section_paragraph{
+    width: 545px;
+    height: 188px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    text-align: justify;
+}
+
+
+
+/*products*/
+
+.section_container{
+    width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 100px;
+}
+
+.section_menu{
+    display: flex;
+    width: 1110px;
+    margin-left: 65px;
+}
+
+
+
+.product_name{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    padding: 30px 100px;
+}
+
+.section_menu:hover{
+    cursor: pointer;
+}
+
+.product_name:hover{
+    color: #B4436C;
+    cursor: pointer;
+}
+
+
+.section_box_two_title{
+    padding: 100px 65px 0;
+    color: #3E8989;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.text_paragraph{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    padding: 50px 65px 0;
+    font-family: "Rubik", serif;
+}
+
+.section_box_two{
+    display: flex;  
+    margin-bottom: 144px;
+}
+
+
+.number_phone{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    font-family: "Rubik", serif;
+}
+
+.item_ggg{
+    padding: 200px 0 0 340px;
+    margin-bottom: 10px;
+}
+
+.gmail{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    font-family: "Rubik", serif;
+}
+
+.item_ggg1{
+    padding: 0 0 0 340px;
+}
+
+
+/* footer boshi */
+
+
+.footer {
+    background-color: #3E8989;
+    color: #ffffff;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Tepadan pastga joylashuvni boshqarish uchun */
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 10px 0; /* Yuqori va pastga biroz bo'sh joy qo'shish uchun */
+}
+  
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+  
+.footer-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Rubik", serif;
+}
+  
+.item_footer{
+    padding-top: 40px;
+}
+  
+.footer-bottom {
+    margin-bottom: 10px; /* Pastga tushirish uchun bo'sh joy qo'shildi */
+    font-size: 12px;
+}
+
+/* footer oxiri*/
